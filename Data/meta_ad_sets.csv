@@ -1,0 +1,103 @@
+reporting_starts,reporting_ends,ad_set_name,delivery_status,results,result_indicator,reach,frequency,cost_per_result,spend_usd,impressions,cpm_usd,link_clicks,shop_clicks,cpc_usd,ctr_link,clicks_all,ctr_all,cpc_all_usd
+2025-01-01,2026-09-07,Interest | Stack | Princess  + Parents + Disney,inactive,13994.0,actions:omni_landing_page_view,677834,1.732598,0.21914606,3066.73,1174414,2.611285,14638.0,,0.209505,1.246409,16019,1.363999,0.191443
+2025-01-01,2026-09-07,Interests | Family + Games | Exclude Buyers,inactive,12810.0,actions:omni_landing_page_view,280302,1.983404,0.16760343,2147.0,555952,3.861844,13537.0,,0.158602,2.434922,14240,2.561372,0.150772
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus,active,658.0,actions:offsite_conversion.fb_pixel_purchase,758024,3.96183,59.83659574,39372.48,3003162,13.110342,58256.0,,0.675853,1.939822,72957,2.429339,0.539667
+2025-01-01,2026-09-07,Broad,inactive,32.0,actions:offsite_conversion.fb_pixel_purchase,78031,2.381502,55.9265625,1789.65,185831,9.630525,1523.0,,1.175082,0.819562,2871,1.544952,0.623354
+2025-01-01,2026-09-07,Interests | Family + Games | Exclude Buyers,inactive,50.0,actions:offsite_conversion.fb_pixel_purchase,104825,2.308705,67.8184,3390.92,242010,14.011487,2242.0,,1.512453,0.926408,4732,1.955291,0.716593
+2025-01-01,2026-09-07,Retargeting | All Retargeting exclude 30 purchase,not_delivering,103.0,actions:offsite_conversion.fb_pixel_purchase,145117,4.141665,66.53252427,6852.85,601026,11.401919,4796.0,,1.428868,0.797969,9793,1.62938,0.69977
+2025-01-01,2026-09-07,Lookalike and Social Engagement,inactive,14651.0,actions:omni_landing_page_view,503465,2.693691,0.27372739,4010.38,1356179,2.957117,15243.0,,0.263097,1.123967,16679,1.229852,0.240445
+2025-01-01,2026-09-07,Broad + Board Game Interest,not_delivering,883.0,actions:offsite_conversion.fb_pixel_add_to_cart,83944,2.290253,4.36807475,3857.01,192253,20.062158,10744.0,,0.358992,5.588469,11812,6.143987,0.326533
+2025-01-01,2026-09-07,Interests | Games | Exclude Buyers,inactive,281.0,actions:offsite_conversion.fb_pixel_add_to_cart,29636,2.059927,5.01964413,1410.52,61048,23.105098,1564.0,,0.901867,2.561918,2738,4.484995,0.515164
+2025-01-01,2026-09-07,Dwellings Stop Scrolling Test | Meta,inactive,10.0,actions:offsite_conversion.fb_pixel_purchase,30020,2.585077,96.787,967.87,77604,12.471909,468.0,,2.068098,0.603062,1249,1.609453,0.774916
+2025-01-01,2026-09-07,Dwellings Stop Scrolling Test | Instagram,inactive,4.0,actions:offsite_conversion.fb_pixel_purchase,25369,2.072766,261.485,1045.94,52584,19.890841,359.0,,2.913482,0.682717,461,0.876693,2.26885
+2025-01-01,2026-09-07,"Broad | Roll, Plan, Conquer | Variant 1",inactive,7742.0,actions:omni_landing_page_view,192812,1.998112,0.23690648,1834.13,385260,4.760759,8069.0,,0.227306,2.09443,8388,2.177231,0.218661
+2025-01-01,2026-09-07,"Broad | Your Path, Your Victory | Variant 1",inactive,2359.0,actions:omni_landing_page_view,82865,1.33522,0.25662993,605.39,110643,5.471562,2531.0,,0.23919,2.287537,6517,5.890115,0.092894
+2025-01-01,2026-09-07,Broad | Perfect for Solo or Game Night | Variant 1,inactive,3329.0,actions:omni_landing_page_view,61881,1.408154,0.17908681,596.18,87138,6.841791,3582.0,,0.166438,4.110721,4009,4.600748,0.14871
+2025-01-01,2026-09-07,"Broad | Epic Battles, Epic Stories | Variant 1",inactive,2598.0,actions:omni_landing_page_view,84543,1.481412,0.23135104,601.05,125243,4.799071,2791.0,,0.215353,2.228468,4510,3.601,0.133271
+2025-01-01,2026-09-07,"Broad | Roll, Plan, Conquer | Variant 2",not_delivering,1725.0,actions:omni_landing_page_view,223496,1.661524,0.41033043,707.82,371344,1.906103,1963.0,,0.360581,0.52862,2235,0.601868,0.316698
+2025-01-01,2026-09-07,"Retargeting | ATC Abandon - 14 Days, Social Engagers",inactive,1375951.0,reach,1375951,1.254506,1.28093224,1762.5,1726139,1.021065,1702.0,,1.035546,0.098602,2062,0.119457,0.854753
+2025-01-01,2026-09-07,Broad | The Most Unique Party Game,not_delivering,933.0,actions:omni_landing_page_view,80755,1.214303,0.37028939,345.48,98061,3.523113,1008.0,,0.342738,1.027932,1688,1.721378,0.204668
+2025-01-01,2026-09-07,Broad | Pure Fun & Chaos,not_delivering,875.0,actions:omni_landing_page_view,108517,1.191445,0.39726857,347.61,129292,2.688565,970.0,,0.358361,0.75024,1452,1.123039,0.239401
+2025-01-01,2026-09-07,"Broad | Betray, Strategize, Win",not_delivering,869.0,actions:omni_landing_page_view,144567,1.378835,0.39822785,346.06,199334,1.736081,948.0,,0.365042,0.475584,1093,0.548326,0.316615
+2025-01-01,2026-09-07,Broad | Make Game Night Legendary,not_delivering,863.0,actions:omni_landing_page_view,61979,1.162845,0.40227115,347.16,72072,4.81685,954.0,,0.363899,1.323676,2271,3.151016,0.152867
+2025-01-01,2026-09-07,Broad | We're Doomed Test,not_delivering,33.0,actions:offsite_conversion.fb_pixel_purchase,58195,2.367798,70.60727273,2330.04,137794,16.90959,2006.0,,1.161535,1.455796,4089,2.967473,0.569831
+2025-01-01,2026-09-07,Retargeting | We're Doomed | Expansion,inactive,2.0,actions:offsite_conversion.fb_pixel_purchase,498,14.690763,112.195,224.39,7316,30.671132,44.0,,5.099773,0.601422,93,1.271186,2.412796
+2025-01-01,2026-09-07,"Retargeting | 90 Day WV, ATC",not_delivering,39145.0,reach,39145,16.637859,50.21382041,1965.62,651289,3.018046,1207.0,,1.628517,0.185325,2251,0.345622,0.873221
+2025-01-01,2026-09-07,Retargeting | 90 Day VC,inactive,12615.0,reach,12615,12.520809,43.29845422,546.21,157950,3.45812,259.0,,2.108919,0.163976,516,0.326686,1.058547
+2025-01-01,2026-09-07,"Retargeting | Site Visitors 30d, ATC 60d | All Games",not_delivering,105.0,actions:offsite_conversion.fb_pixel_purchase,108075,3.44309,61.44514286,6451.74,372112,17.338167,10795.0,,0.59766,2.901008,11930,3.206024,0.5408
+2025-01-01,2026-09-07,Interest | Stack | Games | Ages 35-55,not_delivering,1.0,actions:offsite_conversion.fb_pixel_purchase,217,31.391705,441.06,441.06,6812,64.747504,78.0,,5.654615,1.145038,100,1.467998,4.4106
+2025-01-01,2026-09-07,Broad - Game of the Month Test,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting | All Retargeting exclude 30 purchase,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interests | Gen Con Content,inactive,2236.0,actions:omni_landing_page_view,58750,1.339574,0.14758945,330.01,78700,4.193266,2516.0,,0.131165,3.19695,3399,4.318933,0.09709
+2025-01-01,2026-09-07,We're Doomed Stop Scrolling Test | Meta - Copy,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,We're Doomed Stop Scrolling Test | Meta - Copy 2,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Board Games,not_delivering,27636.0,actions:omni_landing_page_view,291090,2.042097,0.11770734,3252.96,594434,5.472365,29620.0,,0.109823,4.982891,32064,5.394039,0.101452
+2025-01-01,2026-09-07,We're Doomed Stop Scrolling Test | Meta - Copy 2,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting | 90 Day VC + ATC | Party Games,inactive,1.0,actions:offsite_conversion.fb_pixel_purchase,1147,3.719268,67.58,67.58,4266,15.841538,51.0,,1.325098,1.195499,65,1.523676,1.039692
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus Ad set,not_delivering,,,10083,1.745711,,182.95,17602,10.393705,329.0,,0.556079,1.869106,387,2.198614,0.472739
+2025-01-01,2026-09-07,Retargeting | 90 Day VC + ATC | Strategy Games,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus,not_delivering,1.0,actions:offsite_conversion.fb_pixel_purchase,950,1.374737,23.18,23.18,1306,17.748851,10.0,,2.318,0.765697,18,1.378254,1.287778
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus,not_delivering,6.0,actions:offsite_conversion.fb_pixel_purchase,32634,2.232947,124.79333333,748.76,72870,10.275285,338.0,,2.215266,0.46384,719,0.986689,1.041391
+2025-01-01,2026-09-07,Retargeting | Klaviyo,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,"Retargeting | Site Visitors 14d, ATC 30d | All Games",not_delivering,,,65,2.584615,,1.44,168,8.571429,1.0,,1.44,0.595238,1,0.595238,1.44
+2025-01-01,2026-09-07,Warm | 90 Day Engaged View + ATC | Dwellings Only,not_delivering,27.0,actions:offsite_conversion.fb_pixel_purchase,67029,3.032628,85.42703704,2306.53,203274,11.346901,1904.0,,1.211413,0.936667,3122,1.535858,0.738799
+2025-01-01,2026-09-07,Interest | Board Games | Dwellings + Doomed,active,795.0,conversions:offsite_conversion.fb_pixel_custom.EngagedPageview,118972,2.235862,2.95202516,2346.86,266005,8.822616,5806.0,,0.404213,2.182666,9140,3.436026,0.256768
+2025-01-01,2026-09-07,Warm | 90 Day VC Klaviyo | Strategy Only,inactive,,,232,19.806034,,126.71,4595,27.575626,52.0,,2.436731,1.131665,64,1.392818,1.979844
+2025-01-01,2026-09-07,"Warm | 30 Day ATC, VC | 30 Day ATC Klaviyo | Bundles Only",inactive,1.0,actions:offsite_conversion.fb_pixel_purchase,3444,2.118467,107.12,107.12,7296,14.682018,80.0,,1.339,1.096491,95,1.302083,1.127579
+2025-01-01,2026-09-07,Warm | Broad Retargeting | Hook + Bundle Testing,inactive,,,1048,1.334924,,15.21,1399,10.872051,5.0,,3.042,0.357398,10,0.714796,1.521
+2025-01-01,2026-09-07,Interest | Board Games | Super COLD Test | Advantage+,inactive,9.0,actions:offsite_conversion.fb_pixel_purchase,20062,1.311883,90.27888889,812.51,26319,30.871614,384.0,,2.115911,1.459022,556,2.112542,1.461349
+2025-01-01,2026-09-07,Advantage+,not_delivering,,,509,5.569745,,74.02,2835,26.109347,12.0,,6.168333,0.42328,25,0.881834,2.9608
+2025-01-01,2026-09-07,Interest | Board Games | Standard Attribution | Advantage+ - Copy,inactive,3.0,actions:offsite_conversion.fb_pixel_purchase,20474,1.456823,165.41666667,496.25,29827,16.63761,544.0,,0.912224,1.823851,653,2.189292,0.759954
+2025-01-01,2026-09-07,Advantage+ Catchall | No Targeting | New Customers,not_delivering,1.0,actions:offsite_conversion.fb_pixel_purchase,7789,1.309026,286.68,286.68,10196,28.116909,163.0,,1.758773,1.598666,225,2.206748,1.274133
+2025-01-01,2026-09-07,"Stay Home, Play Games - Image Ads",not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Klask Videos,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Something Wicked - Images,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Poop: The Game  Traffic Ad Set,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Poop: The Game Conversions Ad Set,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Conversion Ad Set 1,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Conversion Ad Set 2,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Conversion Ad Set 3,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Conversion Ad Set 4,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Conversion Ad Set 5,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Reach Ad Set,not_delivering,0.0,reach,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Traffic Ad Set - Landing Page Views - Limited Targeting,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Traffic Ad Set - Link clicks - Limited Targeting,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Traffic Ad Set - Landing Page Views - Detailed Targeting,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Traffic Ad Set - Link clicks - Detailed Targeting,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Board Games,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Board Games | Dynamic Creative,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Board Games | Dynamic Creative (Original),not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad | Age 25+,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Add to cart Sparkle Ad set,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games | Exclude Poop the game,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games | Exclude Poop the game and Trellis,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interests Games,not_delivering,0.0,reach,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting | Site Visitors 60d,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting | Site Visitors 60d | 2nd Creative Groupings,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,New Traffic Ad Set,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting Audience,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,New Traffic Ad Set,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting Audience,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Area Specific Targeting,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting | Wholesale Retailers,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games No Poop the game,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad | Video view,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games | Ages 35-55,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games | Ages 35-55 | Sparkle Kitty,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad | Trellis,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Site Visitors,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Site Visitors | Creative #2,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting | All Retargeting exclude 30 purchase,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interest | Stack | Games | Ages 35-55 | MixedTape,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad - Game of the Month Test,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad - Game of the Month Test,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Broad,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Interests | Family + Games | Exclude Buyers,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Retargeting | All Retargeting exclude 30 purchase,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus Ad set,not_delivering,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0

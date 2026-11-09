@@ -1,0 +1,43 @@
+reporting_starts,reporting_ends,campaign_name,delivery_status,results,result_indicator,reach,frequency,cost_per_result,spend_usd,impressions,cpm_usd,link_clicks,shop_clicks,cpc_usd,ctr_link,clicks_all,ctr_all,cpc_all_usd
+2025-01-01,2026-09-07,Stay Home. Play Games,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Klask Videos,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Something Wicked Static Ads,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,KROMA Pre-Kickstarter Ads - Copy,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Stripes Campaign A,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,KROMA Kickstarter Ads - Beginning of Campaign - Conversions - Purchases,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,KROMA Kickstarter Ads - Beginning of Campaign - Copy,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Poop: The Game Traffic Campaign,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Poop: The Game Conversions Campaign,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Warm | Catalog,inactive,106.0,actions:offsite_conversion.fb_pixel_purchase,108180,3.480736,61.51660377,6520.76,376546,17.3173,10847.0,,0.601158,2.880657,11996,3.185799,0.543578
+2025-01-01,2026-09-07,*DA | Sales | All Games,inactive,1.0,actions:offsite_conversion.fb_pixel_purchase,217,31.391705,441.06,441.06,6812,64.747504,78.0,,5.654615,1.145038,100,1.467998,4.4106
+2025-01-01,2026-09-07,*DA | Traffic | Landing Page View,inactive,71327.0,actions:omni_landing_page_view,1627267,2.310425,0.17955445,12807.08,3759679,3.406429,75554.0,,0.169509,2.009586,82401,2.191703,0.155424
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus | MoF | Dynamic,active,658.0,actions:offsite_conversion.fb_pixel_purchase,758024,3.96183,59.83659574,39372.48,3003162,13.110342,58256.0,,0.675853,1.939822,72957,2.429339,0.539667
+2025-01-01,2026-09-07,DA | Sales,inactive,,,312629,4.171606,,16601.66,1304165,12.729724,11438.0,,1.451448,0.877036,23288,1.785664,0.712885
+2025-01-01,2026-09-07,DA | Sales | ATC,inactive,,,107431,2.357802,,5267.53,253301,20.795536,12308.0,,0.427976,4.859041,14550,5.744154,0.36203
+2025-01-01,2026-09-07,DA | MAT Test | Dwellings | Traffic - LPV,inactive,17753.0,actions:omni_landing_page_view,565307,1.909808,0.24472315,4344.57,1079628,4.024136,18936.0,,0.229434,1.753937,25659,2.376652,0.16932
+2025-01-01,2026-09-07,DA | Reach | Retargeting,inactive,1403650.0,reach,1403650,1.806275,3.04515371,4274.33,2535378,1.685875,3168.0,,1.34922,0.124952,4829,0.190465,0.885138
+2025-01-01,2026-09-07,DA | MAT Test | We're Doomed | Traffic - LPV,inactive,3540.0,actions:omni_landing_page_view,345226,1.444732,0.39161299,1386.31,498759,2.779519,3880.0,,0.357296,0.777931,6504,1.304037,0.213147
+2025-01-01,2026-09-07,* DA | Sales | Advantage+ | Doomed Heavy Updated Oct 2025 | FB Only,inactive,,,10083,1.745711,,182.95,17602,10.393705,329.0,,0.556079,1.869106,387,2.198614,0.472739
+2025-01-01,2026-09-07,*DA | Traffic | Engaged Page View,active,795.0,conversions:offsite_conversion.fb_pixel_custom.EngagedPageview,118972,2.235862,2.95202516,2346.86,266005,8.822616,5806.0,,0.404213,2.182666,9140,3.436026,0.256768
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus 1.50x ROAS Goal | TEST,inactive,1.0,actions:offsite_conversion.fb_pixel_purchase,950,1.374737,23.18,23.18,1306,17.748851,10.0,,2.318,0.765697,18,1.378254,1.287778
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus | Restock Only,inactive,6.0,actions:offsite_conversion.fb_pixel_purchase,32634,2.232947,124.79333333,748.76,72870,10.275285,338.0,,2.215266,0.46384,719,0.986689,1.041391
+2025-01-01,2026-09-07,* DA | Sales | Advantage Plus | BoF,inactive,28.0,actions:offsite_conversion.fb_pixel_purchase,68372,3.167437,91.27035714,2555.57,216564,11.80053,2041.0,,1.252117,0.942447,3291,1.519643,0.776533
+2025-01-01,2026-09-07,*DA | Sales | MoF | Non Dynamic | Product Specific,inactive,13.0,actions:offsite_conversion.fb_pixel_purchase,45071,1.471944,122.72615385,1595.44,66342,24.048717,1091.0,,1.462365,1.644509,1434,2.161527,1.11258
+2025-01-01,2026-09-07,* DA | Sales | MoF | All Exl Dynamic,inactive,,,509,5.569745,,74.02,2835,26.109347,12.0,,6.168333,0.42328,25,0.881834,2.9608
+2025-01-01,2026-09-07,Luck Conversion Campaign,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Reach Campaign,inactive,0.0,reach,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,Luck Traffic Campaign,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Poop,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Luck,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Sparkle Kitty,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Add to cart Sparkle Campaign,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Reach | Awareness,inactive,0.0,reach,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | BOF | Retargeting,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Traffic Giveaway,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | Engagement Giveaway,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Sales | All Games | Amazon,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,*DA | Video View | Awareness,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,DA | Sales | Black Friday,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,DA | Sales | Catalog,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,DA | Sales - Purchase DTC,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
+2025-01-01,2026-09-07,* DA | Sales | Advantage+ | DTC,inactive,,,0,0.0,,0.0,0,0.0,,,,,0,0.0,0.0
