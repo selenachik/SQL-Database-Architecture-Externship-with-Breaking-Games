@@ -1,0 +1,74 @@
+# Raw Data: Breaking Games Exports
+
+This folder contains the **original, unmodified data** provided at the start of the externship. All cleaning, new tables, and analysis were done on a separate working copy; these files are the untouched source.
+
+## Files
+
+| File | Source system | Rows | Grain (what one row is) | Date coverage |
+|---|---|---|---|---|
+| `shopify_sales.csv` | Shopify | 116 | One product (aggregated totals) | Not stated in the export |
+| `shopify_orders.csv` | Shopify | 277 | One order line item | Aug 1 – Aug 31, 2026 |
+| `shopify_checkouts.csv` | Shopify | 1,579 | One abandoned-cart line item | Oct 2016 – Oct 2026 |
+| `referrals.csv` | Shopify Analytics | 4,450 | One referrer × landing page pair | Not stated in the export |
+| `meta_campaigns.csv` | Meta Ads Manager | 42 | One campaign (lifetime totals) | Jan 1, 2025 – Sep 7, 2026 |
+| `meta_ad_sets.csv` | Meta Ads Manager | 102 | One ad set (nested inside campaigns) | Jan 1, 2025 – Sep 7, 2026 |
+| `breaking_games.db` | Provided | — | SQLite database with the six tables above preloaded | — |
+
+> ⚠️ **No shared IDs.** None of these files share a customer, session, or product ID. They can only be connected through fuzzy links (product titles, URL slugs, referrer names) or not at all.
+
+## File Details
+
+### `shopify_sales.csv`
+Total sales per product for the Shopify direct-to-consumer store.
+**Key columns:** `product_title`, `product_vendor`, `product_type`, `net_items_sold`, `gross_sales`, `discounts`, `returns`, `net_sales`, `taxes`, `total_sales`
+**Quirks:**
+- `discounts` and `returns` are stored as **negative numbers** (gross + discounts + returns = net)
+- `total_sales` **includes tax** (net + taxes = total)
+- `product_type` has a case mismatch (`Game` vs. `game`) and 7 blank values
+- Includes non-game items (gift tags, bows, replacement parts) and long, pipe-delimited titles (e.g., `Expancity | Family Strategy City Building Game | 2-4 Players`)
+
+### `shopify_orders.csv`
+Completed orders, **one month only**.
+**Key columns:** `day`, `sale_id`, `order_name`, `product_title`, `gross_sales`, `discounts`, `returns`, `net_sales`, `shipping_charges`, `return_fees`, `taxes`, `total_sales`
+**Quirks:**
+- 92 distinct orders across 277 rows. `order_name` repeats once per line item, so `sale_id` is the unique row ID
+- 92 rows have a blank `product_title`. These are shipping/summary lines, one per order
+
+### `shopify_checkouts.csv`
+Checkouts that were started but **never completed** (abandoned carts).
+**Key columns:** `name` (checkout session ID), `email`, `customer_name`, `created_at`, `lineitem_name`, `lineitem_quantity`, `lineitem_price`, `subtotal`, `shipping`, `total`, `discount_code`, `billing_*` / `shipping_*` location, `risk_level`, `source`
+**Quirks:**
+- 1,197 distinct sessions across 1,579 line-item rows. Use `COUNT(DISTINCT name)` for sessions
+- **Customer data is anonymized** (`Customer 001`, `customer_001@example.com`); products, geography, and behavior are real
+- `financial_status` is blank on every row; completions are only in `shopify_orders`
+- Spans ten years, while orders cover one month, so the two can't be compared directly without matching dates
+- Contains likely bot or test activity (repeated items in large quantities, unusual `source` codes like `88312`)
+- `lineitem_name` often differs from `shopify_sales.product_title` (variants, spelling differences, retired products)
+
+### `referrals.csv`
+Website traffic by where visitors came from.
+**Key columns:** `referrer`, `landing_page`, `pageviews`, `added_to_cart_rate`, `conversion_rate`, `bounce_rate`, `checkout_sessions`, plus `*_previous_year` comparison columns
+**Quirks:**
+- 470 distinct referrer values (including blank = direct traffic) and 2,350 distinct landing pages
+- Blank `referrer` (stored as NULL) means **direct** traffic, the largest single source
+- Related names need grouping (`facebook` / `instagram` / `meta`), and look-alikes are different channels (`google` = organic search, `googlesyndication` = paid display)
+- Landing pages use Shopify URL handles (e.g., `/products/dwellings-of-eldervale-standard-edition-element`) that often don't match product titles
+- No dates and no visitor IDs, so a visit can't be linked to a purchase
+
+### `meta_campaigns.csv`
+Facebook and Instagram ad performance, top level.
+**Key columns:** `campaign_name`, `delivery_status`, `results`, `result_indicator`, `reach`, `frequency`, `cost_per_result`, `spend_usd`, `impressions`, `cpm_usd`, `link_clicks`, `cpc_usd`, `ctr_link`
+**Quirks:**
+- Total spend: **$98,542.56**
+- `results` counts a **different thing per campaign** (purchases, landing page views, reach). Check `result_indicator` before comparing
+- 28 of 42 campaigns have a blank `results` value (not recorded, not zero), and 26 campaigns spent $0
+- `ctr_link` is already a percentage (0.84 = 0.84%)
+- Every row covers the same lifetime window, with no monthly breakdown
+
+### `meta_ad_sets.csv`
+Audience-level groups **inside** campaigns. Same columns as `meta_campaigns`, with `ad_set_name` instead of `campaign_name`.
+**Quirk:** ad set spend adds up to the same **$98,542.56** as campaigns. **Never add the two tables together**, or spend gets double-counted.
+
+## Scope
+- Covers **Shopify direct-to-consumer sales only**. Wholesale, retail stores, conventions, and Kickstarter are not included
+- No ad-level (creative) data, UTM tags, or click-to-order tracking was available
