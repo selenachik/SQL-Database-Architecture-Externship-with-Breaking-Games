@@ -1,0 +1,16 @@
+# SQL: Breaking Games Database
+
+This folder contains the SQLite database I built during the Breaking Games externship, plus the queries I ran against it.
+
+## Files
+
+| File | What it is |
+|---|---|
+| `breaking_games.db` | SQLite database: the 6 raw exports plus 3 tables I designed and built |
+| `breaking_games.sqbpro` | DB Browser project file that opens the database with all my query tabs |
+| `all_queries.sql` | Every query from the externship in one file, organized by project |
+
+## How to Open
+1. Install [DB Browser for SQLite](https://sqlitebrowser.org/)
+2. Open `breaking_games.sqbpro` (or `breaking_games.db` directly)
+3. Browse tables in **Browse Data**, or run queries in **Execute SQL** (Ctrl+Enter)
