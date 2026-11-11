@@ -1,1 +1,54 @@
-(TBF)
+# Breaking Games: Holiday Game Plan Dashboard
+
+**Author:** Selena Chik
+**Program:** SQL & Database Architecture Externship, Breaking Games
+
+A one-page KPI dashboard summarizing my analysis of Breaking Games' Shopify sales, marketing channels, and cart abandonment. It was built for a 90-second read by leadership ahead of the holiday season.
+
+## Files
+
+| File | What it is |
+|---|---|
+| `Breaking_Games_Dashboard.html` | The interactive dashboard |
+| `Breaking_Games_Dashboard.png` | Full-page screenshot of the dashboard |
+
+## How to View
+1. Download `Breaking_Games_Dashboard.html`
+2. Double-click it to open it in any browser (Chrome, Edge, Firefox, Safari)
+3. Stay connected to the internet. The charts and styling load from Chart.js and Tailwind CDNs, so offline the page shows text but no charts.
+
+## What's on the Dashboard
+- **5 KPI cards:** the numbers leadership needs for Q4 decisions
+- **Top 10 Products by Revenue:** units sold and average selling price per unit
+- **Revenue Distribution chart:** top 10 products vs. the rest of the catalog
+- **Traffic by Channel chart:** pageviews by marketing channel (bot traffic excluded)
+- **Key Findings and Recommendations:** three of each
+
+## KPIs
+
+| KPI | Value | What it tells the team |
+|---|---|---|
+| Total Revenue | $159,612 | Baseline for Q4 targets (Shopify website sales only) |
+| ★ Meta vs. Organic Search Conversion | 0.22% vs. 0.50% | Our only paid channel converts at less than half the rate of free search traffic |
+| Meta Ad Spend | $98,543 | The budget the Q4 ad decision is about |
+| Cart Abandonment (Adjusted) | 26.4% (naive 92.3%) | Checkout isn't broken; the alarming number came from mismatched dates and bot carts |
+| Top Product Share of Revenue | 17.7% | One product earns almost a fifth of revenue |
+
+★ = custom KPI I chose beyond the standard defaults.
+
+## Data Behind It
+Every number comes from three objects in my SQLite database:
+
+| Object | Type | Feeds |
+|---|---|---|
+| `dashboard_metrics` | Table | The 5 KPI cards |
+| `dashboard_leaderboard` | Table | The top 10 products table |
+| `dashboard_channels` | View | The traffic by channel chart |
+
+Numbers were copied into the HTML by hand. To refresh them, rebuild the three objects in SQLite and update the values in the file.
+
+## Tools
+SQLite · SQL · HTML · Chart.js · Tailwind CSS
+
+## Data Note
+Data is current as of each export: Shopify orders through Aug 31, 2026; Meta through Sep 7, 2026; checkouts through Oct 6, 2026. Shopify direct-to-consumer sales only.
