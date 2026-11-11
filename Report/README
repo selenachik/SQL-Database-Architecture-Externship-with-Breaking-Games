@@ -1,1 +1,56 @@
-(TBF)
+# Breaking Games: Holiday Game Plan & Presentation
+
+**Author:** Selena Chik
+**Program:** SQL & Database Architecture Externship, Breaking Games
+
+The written report and presentation from my externship with Breaking Games, an indie board game publisher. Over five projects, I connected six disconnected data exports into one SQLite database and analyzed what to reprint, where ad money should go, and whether checkout was broken.
+
+## Files
+
+| File | What it is |
+|---|---|
+| `The_Holiday_Game_Plan.pdf` | Full written report covering all five projects: queries, results, findings, and recommendations |
+| `BG_SQL_Final_Presentation.pptx.pdf` | 6-slide deck for Breaking Games' technology team on how I built the database and dashboard |
+| `BG_SQL_Final_Presentation.pptx` | 6-slide deck for Breaking Games' technology team on how I built the database and dashboard |
+
+## Holiday Game Plan: What's Inside
+
+| Section | Covers |
+|---|---|
+| 1. SQL Foundations | First queries, data cleaning, NULL vs. zero |
+| 2. Product Database & Reorder | `dim_product`, joins, match rates, product leaderboard, reorder recommendation |
+| 3. Marketing Attribution | Channel taxonomy (`dim_referrer`), channel conversion, campaign rankings, Q4 ad allocation plan |
+| 4. Cart Abandonment | Bot-detection rules, `clean_checkouts` view, naive vs. adjusted abandonment rate |
+| 5. Dashboard | KPI selection, `dashboard_metrics`, key findings, dashboard screenshot, speaker notes |
+
+## Presentation: Slide Overview
+1. **Title:** what I built
+2. **Architecture:** how data flows from six raw files to the dashboard
+3. **Three design decisions:** `dim_product`, `dim_referrer`, and `clean_checkouts`, with how I checked each
+4. **One metric, three answers:** cart abandonment from 92.3% to 29.8% to 26.4%
+5. **The dashboard:** how my custom KPI is built, step by step
+6. **My idea:** a free-shipping progress bar with a one-click add-on, backed by August order data
+
+## Key Findings
+1. The top 10 of 116 products earn **62.7%** of Shopify revenue; the Dwellings of Eldervale line alone earns **47.6%**.
+2. Meta sent 30% of site traffic but converted at **0.22%**, compared with **0.50%** for free Organic Search.
+3. Five Meta campaigns spent **$24,654** for either no recorded results or more than $100 per purchase.
+4. Cart abandonment dropped from **92.3%** to **26.4%** after matching date windows and removing 35 bot carts.
+5. **66 of 92** August orders fell short of the existing $50 free-shipping threshold and paid shipping.
+
+## Recommendations
+1. **Reorder:** print heavy on the top 10 products, led by the Dwellings family.
+2. **Ad budget:** move $24,654 from underperforming Meta campaigns to email, BoardGameGeek, and a purchase-focused retest of the best ad.
+3. **Checkout:** show international shipping estimates earlier, and add a "you're $X away from free shipping" bar in the cart.
+
+## Limitations
+- Website sales only; wholesale, stores, conventions, and Kickstarter aren't included
+- No click-to-order tracking, so ad results are compared by channel, not proven per sale
+- Orders cover August 2026 only; sales and referral exports have no dates
+- Revenue, not profit; print and shipping costs weren't available
+
+## Skills Demonstrated
+SQL (joins, CTEs, views, window functions) · data modeling (star schema, dimension and fact tables) · data cleaning and validation · marketing analytics (CTR, CPC, conversion) · dashboard design · presenting to non-technical stakeholders
+
+## Data Note
+Customer names and emails in the checkout data were anonymized by the program. Products, geography, and behavior are real.
